@@ -1,0 +1,31 @@
+
+
+/*TEXT*/
+#StartText{
+  -fx-font-family: "Verdana";
+  -fx-font-weight: bold;
+  -fx-fill: white;
+  -fx-stroke: #7080A0;
+  -fx-stroke-width: 3;
+  -fx-font-size: 100px;
+  -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 10, 0.0 , 0 , 1 );
+}
+
+
+/*BACKGROUND*/
+#StartBorder{
+  -fx-background-image: url("background.png");
+  -fx-background-size: cover;
+  -fx-background-repeat: no-repeat;
+  -fx-background-position: center;
+
+}
+
+/* START BUTTON*/
+#Start{
+  -fx-font-size: 16px;
+  -fx-background-color: #ace2ba;
+  -fx-font-family: "Courier New";
+  -fx-font-weight: bold;
+  -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 10, 0.0 , 0 , 1 );
+}

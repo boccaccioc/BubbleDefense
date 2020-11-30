@@ -1,0 +1,179 @@
+
+/* BACKGROUND*/
+#border{
+  -fx-background-image: url("background3.png");
+  -fx-background-size: cover;
+  -fx-background-repeat: no-repeat;
+  -fx-background-position: center;
+}
+
+/*BUBBLES*/
+#BasicBubbles{
+  -fx-fill: radial-gradient(focus-distance 0% , center 60% 40% , radius 90% ,transparent, #99d2ee);
+  -fx-stroke: white;
+  -fx-stroke-width: 0.5;
+}
+
+#SoapyBubbles{
+  -fx-fill: radial-gradient(focus-distance 0% , center 60% 40% , radius 90% ,transparent, lightpink);
+  -fx-stroke: white;
+  -fx-stroke-width: 0.5;
+}
+
+#BarnacleBubbles{
+  -fx-fill: radial-gradient(focus-distance 0% , center 60% 40% , radius 90% ,transparent, black);
+  -fx-stroke: white;
+  -fx-stroke-width: 0.5;
+}
+
+/*BUBBLES_DAMAGED*/
+
+#BasicBubbles_damaged{
+  -fx-fill: radial-gradient(focus-distance 0% , center 60% 40% , radius 90% ,transparent, #edf0f1);
+  -fx-stroke: white;
+  -fx-stroke-width: 0.5;
+}
+
+#SoapyBubbles_damaged{
+  -fx-fill: radial-gradient(focus-distance 0% , center 60% 40% , radius 90% ,transparent, lightpink);
+  -fx-stroke: white;
+  -fx-stroke-width: 0.5;
+}
+
+#BarnacleBubbles_damaged{
+  -fx-fill: radial-gradient(focus-distance 0% , center 60% 40% , radius 90% ,transparent, gray);
+  -fx-stroke: white;
+  -fx-stroke-width: 0.5;
+}
+
+/*Projectiles*/
+#LeafProjectile {
+  -fx-fill: forestgreen;
+  -fx-stroke: black;
+  -fx-stroke-width: 0.5;
+}
+
+#SeaShellProjectile {
+  -fx-fill: white;
+  -fx-stroke: black;
+  -fx-stroke-width: 0.5;
+}
+
+#SpikeProjectile {
+  -fx-fill: black;
+  -fx-stroke: black;
+  -fx-stroke-width: 0.5;
+}
+
+#TorpedoProjectile {
+  -fx-fill: red;
+  -fx-stroke: black;
+  -fx-stroke-width: 0.5;
+}
+
+/*LIVES LABEL*/
+#LivesText{
+  -fx-font-family: "Verdana";
+  -fx-font-weight: bold;
+  -fx-fill: white;
+  -fx-stroke: #7080A0;
+  -fx-font-size: 25px;
+}
+
+/*BANK BOX*/
+#ScoreBox{
+  -fx-stroke: #D0E6FA;
+  -fx-fill: linear-gradient(#529b5b, #84caac);
+}
+
+#ScoreText{
+  -fx-font-family: "Verdana";
+  -fx-font-weight: bold;
+  -fx-fill: white;
+  -fx-stroke: #7080A0;
+  -fx-font-size: 22px;
+}
+
+/*PATH*/
+#path {
+  -fx-stroke: #2e5433;
+  -fx-stroke-width: 60;
+  -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 10, 0.0 , 0 , 1 );
+}
+
+/*TOWER PANE*/
+#flow {
+  -fx-background-color: #26563d;
+}
+
+#TowerHeadline{
+  -fx-font-size: 28px;
+  -fx-font-family: "Verdana";
+  -fx-font-weight: bold;
+  -fx-fill: lightblue;
+  -fx-stroke: black;
+}
+
+
+#TowerButtons{
+  -fx-background-color: #7bbc9a;
+  -fx-font-size: 12px;
+  -fx-font-family: "Courier New";
+  -fx-font-weight: bold;
+  -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 10, 0.0 , 0 , 1 );
+}
+
+#TowerRange{
+  -fx-fill: transparent;
+  -fx-stroke: black;
+  -fx-stroke-width: 2;
+  -fx-stroke-dash-array: 2 12 12 2;
+}
+
+
+/*BUTTONS AND SLIDER*/
+#hbox {
+  -fx-background-color: #26563d;
+  -fx-padding: 15, 12, 15, 12;
+  -fx-spacing: 15;
+}
+
+#SpeedSlider{
+  -fx-border-color: #ace2ba;
+  -fx-border-style: dashed;
+  -fx-border-width: 2;
+  -fx-font-size:16px ;
+  -fx-control-inner-background: #7bbc9a;
+}
+
+#Pause{
+  -fx-font-size: 16px;
+  -fx-background-color: #ace2ba;
+  -fx-font-family: "Courier New";
+  -fx-font-weight: bold;
+  -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 10, 0.0 , 0 , 1 );
+}
+
+#Begin{
+  -fx-font-size: 16px;
+  -fx-background-color: #ace2ba;
+  -fx-font-family: "Courier New";
+  -fx-font-weight: bold;
+  -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 10, 0.0 , 0 , 1 );
+}
+
+#NextRound{
+  -fx-font-size: 16px;
+  -fx-background-color: #ace2ba;
+  -fx-font-family: "Courier New";
+  -fx-font-weight: bold;
+  -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 10, 0.0 , 0 , 1 );
+}
+
+#Quit{
+  -fx-font-size: 16px;
+  -fx-background-color: #ace2ba;
+  -fx-font-family: "Courier New";
+  -fx-font-weight: bold;
+  -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 10, 0.0 , 0 , 1 );
+}

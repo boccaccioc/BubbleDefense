@@ -1,0 +1,9 @@
+Basic,Basic,Basic,Basic,Basic,Basic,Basic
+Basic,Soapy,Basic,Soapy,Basic,Soapy,Basic,Soapy,Basic
+Soapy,Barnacle,Basic,Basic,Soapy,Barnacle,Soapy,Soapy,Basic,Basic,Basic
+Basic,Basic,Soapy,Soapy,Barnacle,Barnacle,Barnacle,Barnacle,Barnacle,Barnacle,Soapy,Soapy,Basic,Basic
+Barnacle,Barnacle,Basic,Basic,Basic,Basic,Soapy,Basic,Soapy,Basic,Soapy,Basic,Soapy,Basic,Barnacle,Barnacle,Barnacle
+Soapy,Soapy,Soapy,Basic,Basic,Basic,Basic,Basic,Basic,Basic,Soapy,Soapy,Soapy,Soapy,Soapy,Soapy,Barnacle,Barnacle,Barnacle,Barnacle,Barnacle,Barnacle,Barnacle,Barnacle
+Basic,Basic,Soapy,Soapy,Barnacle,Barnacle
+Barnacle,Basic,Barnacle,Basic,Barnacle,Basic
+Basic,Soapy,Barnacle,Soapy,Basic,Soapy
